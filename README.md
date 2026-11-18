@@ -9,10 +9,11 @@ A Windows Server 2022 Active Directory lab built in VirtualBox to practice help 
 - Created two OUs (Staff, IT), two security groups (Allstaff, HelpDesk) and five test users
 - Practiced common help desk tasks in Active Directory Users and Computers: password reset, disabling and re-enabling an account
 - Set an account lockout policy (3 invalid attempts) with Group Policy
+- Joined a Windows 11 client VM (CLIENT01) to the domain and signed in as a domain user
+- Tested the lockout policy from the client and unlocked the account in Active Directory Users and Computers
 
-## In progress
-- Joining a Windows 11 client VM to the domain
-- Practicing account unlocks after a lockout
+## Mock help desk tickets
+See the [tickets](tickets/) folder for five simulated tickets based on these exercises.
 
 ## Skills practiced
 Windows Server, Active Directory, DNS, Group Policy, PowerShell, VirtualBox, troubleshooting, documentation
@@ -21,5 +22,4 @@ Windows Server, Active Directory, DNS, Group Policy, PowerShell, VirtualBox, tro
 See the [daily-log](daily-log/) folder for what I did, what went wrong and what I learned each day.
 
 ## Contact
-LinkedIn: [https://www.linkedin.com/in/oramir142](https://www.linkedin.com/in/oramir142/)
-
+LinkedIn: add your profile link
