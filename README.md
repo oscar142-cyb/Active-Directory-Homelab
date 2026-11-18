@@ -22,4 +22,4 @@ Windows Server, Active Directory, DNS, Group Policy, PowerShell, VirtualBox, tro
 See the [daily-log](daily-log/) folder for what I did, what went wrong and what I learned each day.
 
 ## Contact
-LinkedIn: add your profile link
+LinkedIn: https://www.linkedin.com/in/oramir142/
