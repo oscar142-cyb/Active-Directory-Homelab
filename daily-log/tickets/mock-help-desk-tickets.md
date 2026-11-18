@@ -56,13 +56,15 @@ These are simulated tickets based on exercises in my Active Directory home lab (
 - **Status:** Resolved in lab
 
 ## Ticket HD-005: Locked-out account
-- **Date:** Pending
+- **Date:** 2026-11-17
 - **Category:** Account access
 - **Priority:** Medium
 - **Reported by:** Test user (simulated)
 - **Issue:** A user is locked out after 3 failed sign-in attempts, which is the lockout threshold I set in Group Policy.
-- **Planned steps:**
-  1. Fail a sign-in 3 times from the client VM.
-  2. In Active Directory Users and Computers, open the user's properties, go to the Account tab, and unlock the account.
-  3. Confirm the user can sign in.
-- **Status:** Open. I'll complete this once the Windows 11 client VM is joined to the domain.
+- **Steps taken:**
+  1. Reproduced the problem from the domain-joined Windows 11 client VM by entering a wrong password for HOMELAB\cdiaz three times. The next attempt showed "The referenced account is currently locked out and may not be logged on to."
+  2. In Active Directory Users and Computers on DC01, opened the user's properties and went to the Account tab.
+  3. Ticked "Unlock account" and clicked OK.
+  4. Signed in again from the client with the correct password.
+- **Resolution:** Account unlocked, and the user signed in successfully.
+- **Status:** Resolved in lab
